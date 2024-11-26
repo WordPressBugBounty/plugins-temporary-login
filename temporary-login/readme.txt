@@ -4,7 +4,7 @@ Tags: temporary login, passwordless login, temporary access, login
 Requires at least: 6.2
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.2.0
+Stable tag: 1.3.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -54,7 +54,15 @@ Not to worry. The URL is automatically disabled at the expiration time with no a
 
 Nothing! We disable the access as soon as you delete the plugin, so there’s nothing for you to worry about.
 
+= How can I report security bugs? =
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability](https://patchstack.com/database/vdp/temporary-login).
+
 == Changelog ==
+
+= 1.3.0 - 2024-11-26 =
+* New: Added option to save content created by temporary user ([Topic](https://wordpress.org/support/topic/content-attribution/))
+* Tweak: Extend the default access time from 7 to 14 days
 
 = 1.2.0 - 2024-05-30 =
 * Tweak: Added button to share temp login with Elementor support
